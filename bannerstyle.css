@@ -1,0 +1,234 @@
+.mainsection{
+    background-color: #0c111b;
+    height: fit-content;
+    width: 100%;
+    border: 2px solid red;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+li{
+    cursor: pointer;
+}
+.navbar img{
+    height: 75px;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.navbar{
+    height:75px;
+    
+    
+    /*border: 2px solid red;*/
+}
+.leftnav{
+    
+    width:50%;
+}
+.rightnav{
+  
+    width:40%;
+    padding-bottom: 20px;
+}
+.line{
+    
+        width:45%;
+        height:3px;
+        border: 0 none;
+        background-color: white;
+        margin-top: 20px;
+}
+.banner{
+   
+   
+    
+    margin-top: 100px;
+    /*border: 2px solid red;*/
+    border-radius: 15px;
+   display: flex;
+   flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+   
+    
+}
+.topleftimg{
+    height: 120px;
+    width:220px;
+    /*border: 2px solid red;*/
+    
+    cursor: pointer;
+    border-radius: 15px 0px 0px 0px;
+
+}
+.bannerimg{
+    height: 120px;
+    width:220px;
+    /*border: 2px solid red;*/
+    
+    cursor: pointer;
+    
+    
+}
+.toprightimg{
+    height: 120px;
+    width:220px;
+    /*border: 2px solid red;*/
+    
+    cursor: pointer;
+    border-radius: 0px 15px 0px 0px;
+
+}
+.bottomleftimg{
+    height: 120px;
+    width:220px;
+    /*border: 2px solid red;*/
+    
+    cursor: pointer;
+    border-radius: 0px 0px 0px 15px;
+
+}
+.bottomrightimg{
+    height: 120px;
+    width:220px;
+   /*border: 2px solid red;*/
+    
+    cursor: pointer;
+    border-radius: 0px 0px 15px 0px;
+
+}
+.carousel-sections h4{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+text{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    cursor: pointer;
+    
+    
+}
+.highlights{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bolder;
+   
+    height: 20px;
+    width: fit-content;
+    top: 60px;
+    color: rgb(255, 255, 0,1);
+    justify-content: center;
+    background-color:black;
+    left: 7%;
+}
+.video{
+    position: absolute;
+    bottom: 0px;
+   
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: yellow;
+    cursor: pointer;
+    left: 80px;
+  
+    
+    
+}
+.first{
+    display: flex;
+}
+
+.carouselimg{
+    height: 120px;
+    width:200px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    /*border: 2px solid red;*/
+    cursor: pointer;
+    
+}
+.movieimg{
+    height: 200px;
+    width:220px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    /*border: 2px solid red;*/
+    cursor: pointer;
+
+}
+.footer{
+    margin-top: 20px;
+   /*border: 2px solid red;*/
+    display: flex;
+}
+.footer .leftnav{
+ /*border: 2px solid red;*/
+ width:60%;
+ height: fit-content;
+ margin-top: 30px;
+ justify-content: space-between;
+}
+.footer  p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+    margin-left: 40px;
+    /*border: 2px solid red;*/
+    padding-left: 10px;
+}
+.footer .middlenav{
+    
+    position: absolute;
+    left: 65%;
+    margin-top: 50px;
+}
+.footer .rightnav{
+    position: absolute;
+   /*border: 2px solid red;*/
+    left:80%;
+    margin-top: 40px;
+    height: fit-content;
+
+}
+.buttons{
+    position: absolute;
+    margin-top: 60px;
+    left: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
